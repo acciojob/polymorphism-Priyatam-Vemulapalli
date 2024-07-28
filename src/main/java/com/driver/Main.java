@@ -3,7 +3,9 @@ package com.driver;
 
 public class Main {
     public static class Product{
-
+        public int dummy(){
+            return 0;
+        }
         public int product(int x, int y) {
             return x*y;
         }
